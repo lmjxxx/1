@@ -1,0 +1,52 @@
+[Fri May 13 06:25:03.334335 2022] [ssl:warn] [pid 10562] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 13 06:25:03.334523 2022] [mpm_prefork:notice] [pid 10562] AH00163: Apache/2.4.29 (Ubuntu) mpm-itk/2.4.7-04 OpenSSL/1.1.1 configured -- resuming normal operations
+[Fri May 13 06:25:03.334531 2022] [core:notice] [pid 10562] AH00094: Command line: '/usr/sbin/apache2'
+[Fri May 13 06:41:47.042018 2022] [authz_core:error] [pid 24415] [client 51.79.29.48:34114] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 07:19:47.695880 2022] [php7:error] [pid 24841] [client 45.9.20.101:44010] script '/var/www/html/index.php' not found or unable to stat
+[Fri May 13 08:10:11.967429 2022] [authz_core:error] [pid 25427] [client 185.254.196.223:36564] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 09:24:35.608164 2022] [authz_core:error] [pid 26377] [client 109.237.103.38:38576] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 10:02:20.618550 2022] [authz_core:error] [pid 26902] [client 185.142.236.35:56618] AH01630: client denied by server configuration: /var/www/html/.well-known
+[Fri May 13 10:54:53.380413 2022] [authz_core:error] [pid 27672] [client 51.79.29.48:36844] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 11:01:55.667233 2022] [core:error] [pid 27740] [client 45.9.20.101:60078] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri May 13 11:09:54.438261 2022] [authz_core:error] [pid 27918] [client 185.254.196.223:34702] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 12:37:25.039572 2022] [authz_core:error] [pid 28997] [client 163.172.88.201:48858] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 12:54:24.131118 2022] [authz_core:error] [pid 29239] [client 51.79.29.48:48454] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 12:57:17.201794 2022] [authz_core:error] [pid 29241] [client 20.22.223.132:58330] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 12:57:18.152844 2022] [authz_core:error] [pid 29243] [client 20.22.223.132:58929] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 14:10:31.129780 2022] [authz_core:error] [pid 30291] [client 185.254.196.223:42040] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 14:52:36.345159 2022] [authz_core:error] [pid 31019] [client 51.79.29.48:34980] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 15:18:45.299874 2022] [php7:error] [pid 31307] [client 45.9.20.101:57666] script '/var/www/html/index.php' not found or unable to stat
+[Fri May 13 16:49:17.665130 2022] [authz_core:error] [pid 32513] [client 51.79.29.48:47434] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 17:09:36.900482 2022] [authz_core:error] [pid 32729] [client 185.254.196.223:43740] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 17:25:52.461395 2022] [authz_core:error] [pid 525] [client 209.127.181.88:58695] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 17:52:13.021492 2022] [authz_core:error] [pid 926] [client 206.189.224.36:60216] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 18:45:25.476235 2022] [authz_core:error] [pid 1796] [client 51.79.29.48:60082] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 19:23:59.036755 2022] [authz_core:error] [pid 2339] [client 109.237.103.123:58990] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 19:39:01.024390 2022] [authz_core:error] [pid 2441] [client 45.134.144.140:37138] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 19:49:31.432088 2022] [authz_core:error] [pid 2663] [client 137.184.113.41:43870] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 20:09:56.785881 2022] [authz_core:error] [pid 2947] [client 185.254.196.223:55830] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 20:39:05.077432 2022] [authz_core:error] [pid 3328] [client 51.79.29.48:41528] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 21:46:14.208426 2022] [core:error] [pid 4570] [client 45.9.20.101:48750] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri May 13 22:06:52.058172 2022] [php7:emerg] [pid 4831] [client 121.184.187.56:52154] PHP Parse error:  syntax error, unexpected '*', expecting end of file in /var/www/html/a/1/login.php on line 11
+[Fri May 13 22:06:54.544062 2022] [php7:emerg] [pid 4832] [client 121.184.187.56:52155] PHP Parse error:  syntax error, unexpected '*', expecting end of file in /var/www/html/a/1/login.php on line 11
+[Fri May 13 22:07:37.396378 2022] [php7:emerg] [pid 4834] [client 121.184.187.56:52157] PHP Parse error:  syntax error, unexpected '*', expecting end of file in /var/www/html/a/1/login.php on line 11, referer: http://34.64.45.196/a/1/login.html
+[Fri May 13 22:25:31.024653 2022] [php7:emerg] [pid 5133] [client 121.184.187.56:52237] PHP Parse error:  syntax error, unexpected '*', expecting end of file in /var/www/html/a/1/login.php on line 11
+[Fri May 13 22:25:39.870783 2022] [php7:notice] [pid 5135] [client 121.184.187.56:52239] PHP Notice:  Undefined index: id in /var/www/html/a/login.php on line 13
+[Fri May 13 22:25:39.870908 2022] [php7:notice] [pid 5135] [client 121.184.187.56:52239] PHP Notice:  Undefined index: pw in /var/www/html/a/login.php on line 14
+[Fri May 13 22:25:51.728147 2022] [php7:emerg] [pid 5136] [client 121.184.187.56:52240] PHP Parse error:  syntax error, unexpected '*', expecting end of file in /var/www/html/a/1/login.php on line 11
+[Fri May 13 22:25:55.244945 2022] [php7:emerg] [pid 5137] [client 121.184.187.56:52242] PHP Parse error:  syntax error, unexpected '*', expecting end of file in /var/www/html/a/1/login.php on line 11
+[Fri May 13 22:26:14.108694 2022] [php7:emerg] [pid 5140] [client 121.184.187.56:52247] PHP Parse error:  syntax error, unexpected '*', expecting end of file in /var/www/html/a/1/login.php on line 11, referer: http://34.64.45.196/a/1/login.html
+[Fri May 13 22:30:02.552083 2022] [php7:emerg] [pid 5231] [client 121.184.187.56:52257] PHP Parse error:  syntax error, unexpected '*', expecting end of file in /var/www/html/a/1/login.php on line 11, referer: http://34.64.45.196/a/1/login.html
+[Fri May 13 22:30:16.941958 2022] [php7:notice] [pid 5234] [client 121.184.187.56:52259] PHP Notice:  Undefined index: id in /var/www/html/a/login.php on line 13
+[Fri May 13 22:30:16.942015 2022] [php7:notice] [pid 5234] [client 121.184.187.56:52259] PHP Notice:  Undefined index: pw in /var/www/html/a/login.php on line 14
+[Fri May 13 22:32:50.154408 2022] [authz_core:error] [pid 5250] [client 51.79.29.48:33472] AH01630: client denied by server configuration: /var/www/html/.env
+[Fri May 13 22:41:23.925082 2022] [php7:notice] [pid 5605] [client 121.184.187.56:52309] PHP Notice:  Undefined index: username in /var/www/html/mylittlewebserver/login.php on line 3, referer: http://34.64.45.196/a/login.html
+[Fri May 13 22:41:23.925125 2022] [php7:notice] [pid 5605] [client 121.184.187.56:52309] PHP Notice:  Undefined index: password in /var/www/html/mylittlewebserver/login.php on line 4, referer: http://34.64.45.196/a/login.html
+[Fri May 13 22:43:05.012828 2022] [php7:notice] [pid 5620] [client 121.184.187.56:52320] PHP Notice:  Undefined index: username in /var/www/html/mylittlewebserver/login.php on line 3, referer: http://34.64.45.196/a/login.html
+[Fri May 13 22:43:05.012946 2022] [php7:notice] [pid 5620] [client 121.184.187.56:52320] PHP Notice:  Undefined index: password in /var/www/html/mylittlewebserver/login.php on line 4, referer: http://34.64.45.196/a/login.html
+[Fri May 13 22:43:21.272027 2022] [php7:notice] [pid 5621] [client 121.184.187.56:52325] PHP Notice:  Undefined index: username in /var/www/html/mylittlewebserver/login.php on line 3, referer: http://34.64.45.196/a/login.html
+[Fri May 13 22:43:21.272083 2022] [php7:notice] [pid 5621] [client 121.184.187.56:52325] PHP Notice:  Undefined index: password in /var/www/html/mylittlewebserver/login.php on line 4, referer: http://34.64.45.196/a/login.html
+[Fri May 13 22:44:13.938457 2022] [php7:notice] [pid 5623] [client 121.184.187.56:52329] PHP Notice:  Undefined index: username in /var/www/html/mylittlewebserver/login.php on line 3, referer: http://34.64.45.196/a/login.html
+[Fri May 13 22:44:13.938499 2022] [php7:notice] [pid 5623] [client 121.184.187.56:52329] PHP Notice:  Undefined index: password in /var/www/html/mylittlewebserver/login.php on line 4, referer: http://34.64.45.196/a/login.html
+[Fri May 13 22:44:24.389941 2022] [php7:notice] [pid 5624] [client 121.184.187.56:52331] PHP Notice:  Undefined index: username in /var/www/html/mylittlewebserver/login.php on line 3, referer: http://34.64.45.196/a/login.html
+[Fri May 13 22:44:24.389978 2022] [php7:notice] [pid 5624] [client 121.184.187.56:52331] PHP Notice:  Undefined index: password in /var/www/html/mylittlewebserver/login.php on line 4, referer: http://34.64.45.196/a/login.html

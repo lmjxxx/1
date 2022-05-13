@@ -1,14 +1,14 @@
 <?php
 /*$postid=$_POST['id'];
-$postpw=$_POST['pw'];
-$c= new PDO('mysql:host=localhost;dbname=secu','user','password');
-st=$c->query("SELECT name FROM users WHERE id=:id");
-$stmt->bindValue(":id",$postid);
-$st=excute();
+//$postpw=$_POST['pw'];
+//$c= new PDO('mysql:host=localhost;dbname=secu','user','password');
+//st=$c->query("SELECT name FROM users WHERE id=:id");
+//$stmt->bindValue(":id",$postid);
+//$st=excute();
 
-$result=$st->fetch();
-if($postid==$result['id']&&$postpw==$result['pw']) header("Location:/gugu.php");
-else header("Location:/login.html");*/
+//$result=$st->fetch();
+//if($postid==$result['id']&&$postpw==$result['pw']) header("Location:/gugu.php");
+//else header("Location:/login.html");*/
 
 $ID = $_POST['id'];
 $PW = $_POST['pw'];
@@ -63,14 +63,14 @@ try {
 
     if($corpw == $PW)
     {
-        require("/var/www/html/secu_task_web3/secu999.php");
+        header('Location: http://34.64.45.196/mylittlewebserver/secu999.php');
 
     }else{
-        $html = file_get_contents('http://34.64.45.196/mylittlewebserver/Secu_Web_task_2.html');
+        $html = file_get_contents('http://34.64.45.196/a/login.html');
         echo "" . $html;
     }
 }else{
-    header('Location: http://34.64.45.196/mylittlewebserver/Secu_Web_task_2.html');
+    header('Location: http://34.64.45.196/a/login.html');
     
 }
 
